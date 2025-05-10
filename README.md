@@ -42,3 +42,9 @@
 ## 贡献
 
 欢迎提交Issue或Pull Request！如果你有类似需求或改进建议，请告诉我们。
+
+## 截图
+
+![image](https://github.com/user-attachments/assets/008acd54-e0ad-4cd1-bd28-b2b172dcf617)
+
+
