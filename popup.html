@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body { width: 200px; padding: 10px; font-family: Arial, sans-serif; }
+    button { margin: 5px 0; width: 100%; }
+    input { width: 60px; margin-right: 5px; }
+    .row { display: flex; margin: 10px 0; }
+  </style>
+</head>
+<body>
+  <div class="row">
+    <input type="number" id="timeValue" value="10" min="1">
+    <select id="timeUnit">
+      <option value="1000">秒</option>
+      <option value="60000" selected>分</option>
+    </select>
+  </div>
+  <button id="startRefresh">开始定时刷新</button>
+  <button id="refreshNow">立即刷新</button>
+  <button id="stopRefresh">停止刷新</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>

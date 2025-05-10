@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "自动刷新页面",
+  "version": "1.0",
+  "description": "自定义时间自动刷新页面",
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": "img/avatar.png",
+    "default_popup": "popup.html"
+  }
+}
